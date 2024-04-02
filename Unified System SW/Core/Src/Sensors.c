@@ -73,7 +73,7 @@ uint16_t QIF_Read_I2C_Register(uint8_t uiSensorIndex, uint16_t uiAdress)
 
 void QIF_Write_I2C_EE(uint8_t uiSensorIndex, uint16_t uiAdress, uint16_t uiData)
 {
-  t_Senor16Data uiSwapedDate;
+  t_Senor16Data uiSwapedData;
   HAL_StatusTypeDef ErrorCheck;
   uint32_t uiCounter=0U;
   uiCounter=LL_TIM_GetCounter(TIM5);
@@ -81,8 +81,7 @@ void QIF_Write_I2C_EE(uint8_t uiSensorIndex, uint16_t uiAdress, uint16_t uiData)
   {
       if(LL_TIM_GetCounter(TIM5) - uiCounter <=  100U) // 100 is 1mili second.
       {
-      uiSwapedDate.iWordArray = QIF_Read_I2C_Register(uiSensorIndex,MLX90632_SENSOR_REG_STATUS);
-      g_tSensor[uiSensorIndex].RegStatusUnified.uiRegStatus=SwapLsbMsb(uiSwapedDate.iWordArray);
+      uiSwapedData.iWordArray = QIF_Read_I2C_Register(uiSensorIndex,MLX90632_SENSOR_REG_STATUS);
       }
       else
       {
@@ -93,8 +92,8 @@ void QIF_Write_I2C_EE(uint8_t uiSensorIndex, uint16_t uiAdress, uint16_t uiData)
   
   Unlock_Sensor(uiSensorIndex);
    
-  uiSwapedDate.iWordArray=SwapLsbMsb(uiData);
-  ErrorCheck = HAL_I2C_Mem_Write(g_tSensor[uiSensorIndex].Channel,g_tSensor[uiSensorIndex].I2C_Adress , uiAdress, I2C_MEMADD_SIZE_16BIT,uiSwapedDate.uiByteArray,2U,I2C_TIMEOUT_MS);
+  uiSwapedData.iWordArray=SwapLsbMsb(uiData);
+  ErrorCheck = HAL_I2C_Mem_Write(g_tSensor[uiSensorIndex].Channel,g_tSensor[uiSensorIndex].I2C_Adress , uiAdress, I2C_MEMADD_SIZE_16BIT,uiSwapedData.uiByteArray,2U,I2C_TIMEOUT_MS);
   if(ErrorCheck !=  HAL_OK)
   {
     Error_Handler();
@@ -179,75 +178,113 @@ void Senors_I2C_Init()
     }
     iShiftVariable=t_Buffer[1U].iWordArray;
     iShiftVariable=(iShiftVariable<<16U) + t_Buffer[0U].iWordArray;
-    g_tSensor[uiSenorIndex].fEE_P_R=iShiftVariable*(pow(2.0F,-8.0F));
+    g_tSensor[uiSenorIndex].fEE_P_R=iShiftVariable * CONST_2POW_N8;
     
     iShiftVariable=t_Buffer[3U].iWordArray;
     iShiftVariable=(iShiftVariable<<16U) + t_Buffer[2U].iWordArray;
-    g_tSensor[uiSenorIndex].fEE_P_G=iShiftVariable*(pow(2.0F,-20.0F));
+    g_tSensor[uiSenorIndex].fEE_P_G=iShiftVariable * CONST_2POW_N20;
     
     iShiftVariable=t_Buffer[5U].iWordArray;
     iShiftVariable=(iShiftVariable<<16U) + t_Buffer[4U].iWordArray;
-    g_tSensor[uiSenorIndex].fEE_P_T=iShiftVariable*(pow(2.0F,-44.0F));
+    g_tSensor[uiSenorIndex].fEE_P_T=iShiftVariable * CONST_2POW_N44;
     
     iShiftVariable=t_Buffer[7U].iWordArray;
     iShiftVariable=(iShiftVariable<<16U) + t_Buffer[6U].iWordArray;
-    g_tSensor[uiSenorIndex].fEE_P_O=iShiftVariable*(pow(2.0F,-8.0F));
+    g_tSensor[uiSenorIndex].fEE_P_O=iShiftVariable * CONST_2POW_N8;
     
     iShiftVariable=t_Buffer[25U].iWordArray;
     iShiftVariable=(iShiftVariable<<16U) + t_Buffer[24U].iWordArray;
-    g_tSensor[uiSenorIndex].fEE_Ea=iShiftVariable*(pow(2.0F,-16.0F));
+    g_tSensor[uiSenorIndex].fEE_Ea=iShiftVariable * CONST_2POW_N16;
     
     iShiftVariable=t_Buffer[27U].iWordArray;
     iShiftVariable=(iShiftVariable<<16U) + t_Buffer[26U].iWordArray;
-    g_tSensor[uiSenorIndex].fEE_Eb=iShiftVariable*(pow(2.0F,-8.0F));
+    g_tSensor[uiSenorIndex].fEE_Eb=iShiftVariable * CONST_2POW_N8;
     
     iShiftVariable=t_Buffer[29U].iWordArray;
     iShiftVariable=(iShiftVariable<<16U) + t_Buffer[28U].iWordArray;
-    g_tSensor[uiSenorIndex].fEE_Fa=iShiftVariable*(pow(2.0F,-46.0F));
+    g_tSensor[uiSenorIndex].fEE_Fa=iShiftVariable * CONST_2POW_N46;
     
     iShiftVariable=t_Buffer[31U].iWordArray;
     iShiftVariable=(iShiftVariable<<16U) + t_Buffer[30U].iWordArray;
-    g_tSensor[uiSenorIndex].fEE_Fb=iShiftVariable*(pow(2.0F,-36.0F));
+    g_tSensor[uiSenorIndex].fEE_Fb=iShiftVariable * CONST_2POW_N36;
     
     iShiftVariable=t_Buffer[33U].iWordArray;
     iShiftVariable=(iShiftVariable<<16U) + t_Buffer[32U].iWordArray;
-    g_tSensor[uiSenorIndex].fEE_Ga=iShiftVariable*(pow(2.0F,-36.0F));
+    g_tSensor[uiSenorIndex].fEE_Ga=iShiftVariable * CONST_2POW_N36;
     
-    g_tSensor[uiSenorIndex].fEE_Gb=t_Buffer[34U].iWordArray*(pow(2.0F,-10.0F));
-    g_tSensor[uiSenorIndex].fEE_Ka=t_Buffer[35U].iWordArray*(pow(2.0F,-10.0F));
+    g_tSensor[uiSenorIndex].fEE_Gb=t_Buffer[34U].iWordArray * CONST_2POW_N10;
+    g_tSensor[uiSenorIndex].fEE_Ka=t_Buffer[35U].iWordArray * CONST_2POW_N10;
     g_tSensor[uiSenorIndex].fEE_Kb=t_Buffer[36U].iWordArray*(1.0F);
-    g_tSensor[uiSenorIndex].fEE_Ha=1.0F;
-    g_tSensor[uiSenorIndex].fEE_Hb=0.0F;
+    g_tSensor[uiSenorIndex].fEE_Ha = 1.0F;
+    g_tSensor[uiSenorIndex].fEE_Hb = 0.0F;
   }
 }
 
-void Calculate_Temps(uint8_t uiSensorIndex, double* Ambient_Temp, double* Object_Temp)
+void Calculate_Temps(uint8_t uiSensorIndex)
 {
   int16_t iMeasurements[8U]={0U};
-  double dVR_TA=0.0F;
-  double dAMB=0.0F;
-  double dS=0.0F;
-  double dVRTO=0.0F;
-  double dSTO=0.0F;
-  double dTa=0.0F;
-  double dTO=0.0F;
-  double dTO_1=0.0F;
-  double dTO_2=0.0F;
-  double dTO_3=0.0F;
+  float fVR_TA = 0.0F;
+  float fAMB = 0.0F;
+  float fS = 0.0F;
+  float fVRTO = 0.0F;
+  float fSTO = 0.0F;
+  float fTa = 0.0F;
+  float fTA_dut = 0.0F;
+  float fTO_dut = 25.0F;
+  float fTO_0 = 25.0F;
+  float fTA_0 = 25.0F;
+  float fTO = 0.0F;
+  float fTO_1 = 0.0F;
+  float fTO_2 = 0.0F;
+  float fTO_3 = 0.0F;
   for(uint8_t uiPtr=0U; uiPtr< 8U; uiPtr++)
   {
-  iMeasurements[uiPtr]=QIF_Read_I2C_Register(uiSensorIndex,RAM_52+uiPtr);
+    iMeasurements[uiPtr]=QIF_Read_I2C_Register(uiSensorIndex,RAM_52+uiPtr);
   }
-  dVR_TA=(double)(iMeasurements[5U])+g_tSensor[uiSensorIndex].fEE_Gb*((double)(iMeasurements[2U]/(12U)));
-  dAMB=(((double)(iMeasurements[2U]/(12U)))/(dVR_TA))*(pow(2.0F,19.0F));
-  dS=(double)(((iMeasurements[0U]-iMeasurements[1U]-iMeasurements[3U]+iMeasurements[4U])/2U)+iMeasurements[6U]+iMeasurements[7U]);
-  dVRTO=(double)(iMeasurements[5U])+g_tSensor[uiSensorIndex].fEE_Ka*(iMeasurements[2U]/(12U));
-  dSTO=(dS/12.0F)/dVRTO*(pow(2.0F,19.0F));
-  dTa=g_tSensor[uiSensorIndex].fEE_P_O + (dAMB-g_tSensor[uiSensorIndex].fEE_P_R)/g_tSensor[uiSensorIndex].fEE_P_G + g_tSensor[uiSensorIndex].fEE_P_T * pow((dAMB - g_tSensor[uiSensorIndex].fEE_P_R),2U);
+  fVR_TA=(float)(iMeasurements[5U])+g_tSensor[uiSensorIndex].fEE_Gb*((float)(iMeasurements[2U]/(12U)));
+  fAMB=(((float)(iMeasurements[2U]/(12U)))/(fVR_TA)) * CONST_2POW_P19;
+  fS=(float)(((iMeasurements[0U]-iMeasurements[1U]-iMeasurements[3U]+iMeasurements[4U])/2U)+iMeasurements[6U]+iMeasurements[7U]);
+  fVRTO=(float)(iMeasurements[5U])+g_tSensor[uiSensorIndex].fEE_Ka * (float)(iMeasurements[2U]/(12U));
+  fSTO=(fS/12.0F)/fVRTO * CONST_2POW_P19;
+  fTa=g_tSensor[uiSensorIndex].fEE_P_O + (fAMB-g_tSensor[uiSensorIndex].fEE_P_R)/g_tSensor[uiSensorIndex].fEE_P_G + g_tSensor[uiSensorIndex].fEE_P_T * (fAMB - g_tSensor[uiSensorIndex].fEE_P_R) * (fAMB - g_tSensor[uiSensorIndex].fEE_P_R);
   
- dTO_1=((g_tSensor[uiSensorIndex].fEE_Fa/2U)*g_tSensor[uiSensorIndex].fEE_Ha)*((1+g_tSensor[uiSensorIndex].fEE_Ga*()
+  fTA_dut= ((fAMB - g_tSensor[uiSensorIndex].fEE_Bb)/(g_tSensor[uiSensorIndex].fEE_Ea)) + 25.0F;
+  
+  fTO_1=fSTO/((g_tSensor[uiSensorIndex].fEE_Fa/2.0F)*g_tSensor[uiSensorIndex].fEE_Ha);
+  fTO_3=(fTa * fTa * fTa * fTa);
+  
+  for(uint8_t uiPtr = 0U ; uiPtr< 3U ; uiPtr++)
+  {
+    fTO_2=(1.0F + g_tSensor[uiSensorIndex].fEE_Ga * (fTO_dut-fTO_0) + g_tSensor[uiSensorIndex].fEE_Fb * (fTA_dut - fTA_0));  
+    fTO=(sqrtf(sqrtf(fTO_1/fTO_2) + fTO_3)) - 273.15F - g_tSensor[uiSensorIndex].fEE_Hb;
+    fTO_dut = fTO;
+  }
+  
+  g_tSensor[uiSensorIndex].fObject_Temp = fTO;
+  g_tSensor[uiSensorIndex].Ambient_Temp = fTa;
 }
 
 
-
+void IsDataReady(uint8_t uiSensorIndex)
+{
+  uint32_t uiCounter=0U;
+  
+  uiCounter=LL_TIM_GetCounter(TIM5);
+  do
+  {
+    if(LL_TIM_GetCounter(TIM5) - uiCounter <=  6000U) // 6000 is 60mili second.
+    {
+      g_tSensor[uiSensorIndex].RegStatusUnified.uiRegStatus = QIF_Read_I2C_Register(uiSensorIndex,MLX90632_SENSOR_REG_STATUS);
+    }
+    else
+    {
+      Error_Handler();
+    }
+  }
+  while (g_tSensor[uiSensorIndex].RegStatusUnified.RegStatus.uiNewData == 0U);
+  
+  g_tSensor[uiSensorIndex].RegStatusUnified.RegStatus.uiNewData = 0U;
+  
+  QIF_Write_I2C_Register(uiSensorIndex, MLX90632_SENSOR_REG_STATUS, g_tSensor[uiSensorIndex].RegStatusUnified.uiRegStatus);
+}
 

@@ -1,96 +1,211 @@
 # ninja log v5
-4907	5460	7332306942682121	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.pbi	5e23bdc0f9cd7393
-156	1049	7332306890000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.xcl	2be79b6a360786d0
-6606	7173	7332306959810253	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.pbi	4c1caca2c7b3475e
-1086	1374	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.xcl	820d6ceecea4e1d3
-1057	1278	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma.xcl	285609ab82a2c7e7
-646	1132	7332306890000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_exti.xcl	bc189cbb9a3e63af
-249	978	7332361240060908	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part2.pbi	67b81282db41de48
-1105	1393	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.xcl	cd202e84455b34c4
-744	1424	7336880291385887	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
-626	1080	7332306890000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma_ex.xcl	31c92e129f5f6c03
-6431	7000	7332306958076709	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim_ex.pbi	d2774fa2ee5769f6
-656	1098	7332306890000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc_ex.xcl	94a457deca893296
-2109	2285	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim_ex.xcl	5c2a00068521f7ff
-1382	1555	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.xcl	83907f0201370130
-1400	1573	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.xcl	462121cc898bb5e6
-2135	2309	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_dma.xcl	5873d32ae0c91239
-428	1163	7332361241908673	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part3.pbi	a961ce8236c8abff
-1510	1700	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ramfunc.xcl	93397ed103ddff71
-987	1411	7332361244392323	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	a30d4004f882e1b0
-1580	1768	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.xcl	708b8973df100dbc
-1139	1446	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr.xcl	c61907c7b61dfb8a
-1452	1621	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.xcl	16fa609818862097
-2181	2379	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_exti.xcl	89d6c562e6f1f523
-5379	5883	7332306946910809	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.pbi	295a4300bd6373ae
-1430	1945	7336880296588829	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
-1562	1750	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.xcl	cee944ea1359644f
-1285	1502	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.xcl	feb7dda9dc928b10
-1628	1798	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.xcl	253c7b5442599ef1
-1757	1947	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.xcl	5260641c41a82612
-5390	6034	7332306948414718	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ramfunc.pbi	58d480d6b0688da2
-1707	1899	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.xcl	d4f89084a5843a1f
-1993	2174	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/CMSIS/system_stm32l4xx.xcl	c021ba8d6a6fe608
-1775	1963	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim.xcl	6244644144a65cdc
-2316	2743	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.xcl	97859e7dc0b15ab5
-2158	2351	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart_ex.xcl	ceae1c7d92c8ff38
-3558	4222	7332306930238503	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc.pbi	860083cfdc216d59
-1805	1986	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_it.xcl	26fd073a59bef6f3
-1906	2102	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.xcl	d65c0b7b9e001a1b
-1954	2128	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc.xcl	88f19c6ce58cebac
-4225	4904	7332306937098472	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_exti.pbi	e5005c10ee18bf1
-1970	2151	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_hal_msp.xcl	5e0c49a7a9a8e6e4
-3981	4767	7332306935733276	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.pbi	2e876f6e4df20b8
-2734	3353	7332306921433079	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/CMSIS/system_stm32l4xx.pbi	6ab43cdd6c0a0a2f
-5	740	7336880284547965	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	24c09a5404ebf779
-7054	7827	7332306965800232	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim.pbi	b1d8b5f7dfbf3cb6
-2750	3445	7332306922509445	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_it.pbi	c43aa0e46727a9f
-3356	4200	7332306930046855	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_hal_msp.pbi	cfcc6361a7a6a316
-4085	4841	7332306936482912	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc_ex.pbi	d46a9594e6089dea
-4203	4880	7332306936875069	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma_ex.pbi	f2b9f87b23a95f68
-3448	3978	7332306927843921	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma.pbi	e62434e892f44127
-239	995	7332361240234760	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part1.pbi	3c5e5d05babbd19c
-2718	3329	7332306921359530	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.pbi	304fedb52e93011d
-1002	1702	7332361247305977	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part4.pbi	72b7d98e59af81df
-3332	3494	7332306920000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_utils.xcl	51264ea8de36ff3
-4883	5412	7332306942195385	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr.pbi	650c1a7875d82a38
-3501	4082	7332306928766400	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.pbi	45c0f8e304b78e0b
-4845	5387	7332306941838275	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.pbi	efd86f7bdceda7f
-5415	5932	7332306947391122	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.pbi	b00d0e7f326b0f32
-4770	5376	7332306941828324	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.pbi	a83b8453d3ac3cbc
-5463	6046	7332306948482211	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.pbi	1705c5a88f07cd8a
-6689	7257	7332306960654136	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.pbi	5cbf48987f47d362
-7003	7555	7332306963600376	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.pbi	74b9d944936338c1
-7176	7859	7332306966668334	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart_ex.pbi	44b4c774edc814f9
-5888	6427	7332306952342500	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.pbi	307e42dd7a5d634d
-1951	4274	7336880319241898	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
-2359	2710	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_tim.xcl	adc95aea5a5a4509
-2292	2726	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_gpio.xcl	999b33d4f64b72d4
-5935	6528	7332306953353488	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_tim.pbi	7eaacb0ae8c0acaf
-6050	6603	7332306954097336	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_dma.pbi	58815c9558618b31
-6038	6686	7332306954928581	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_gpio.pbi	8a8d254aa85f9f8f
-6532	7051	7332306958585509	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_exti.pbi	73c396a7f8be23f0
-7261	7905	7332306967132072	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_utils.pbi	41feb7a60d5fd16b
-5	368	7332361230000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.xcl	5ac868e5205f1a3e
-13	580	7336880282947582	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
-14	634	7336880428354441	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
-6	639	7336880428354441	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	24c09a5404ebf779
-641	1330	7336880435304349	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
-1336	1888	7336880440883944	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
-1894	4144	7336880462664313	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
-6	538	7336880671953473	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
-542	1210	7336880678674751	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
-1217	1708	7336880683657540	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
-1715	4026	7336880706114965	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
-5	693	7336881018034856	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
-5	640	7336881081481591	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
-648	1170	7336881086778452	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
-1177	3442	7336881108912702	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
-5	567	7336881267913084	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
-571	1200	7336881274231694	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
-1207	1704	7336881279273996	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
-1711	3965	7336881301161479	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
-5	576	7336881412883448	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
-580	1288	7336881419939537	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
-1299	1845	7336881425570374	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
-1852	4160	7336881447953948	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
+1887	2964	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.xcl	cc4001c25cc3b5e1
+1322	1532	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.xcl	280de98f72687878
+1181	1355	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.xcl	38421f6936134f68
+433	1020	7337529843791702	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	52b34d6c2e52f05d
+568	1030	7337549507890232	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+758	1011	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma.xcl	41f2e1f0e2bfb0cc
+1918	3084	7337454710000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_utils.xcl	c826aa89cf6c1ccb
+964	1157	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc_ex.xcl	311195a5e14feec
+5	696	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.xcl	6b546bbd53ac9ea2
+269	712	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc.xcl	bb993c64bf183e32
+299	728	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_it.xcl	88dd3cd72d18ca46
+290	750	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_hal_msp.xcl	10c3c8208eebcd3d
+705	926	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/CMSIS/system_stm32l4xx.xcl	a46f1d0c00ddb340
+736	940	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.xcl	d438a42bfc57a24
+720	956	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.xcl	2437299813ab8bb0
+933	1140	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.xcl	873d977fba479b2c
+948	1173	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.xcl	70c48db334e9432c
+1019	1192	7337454690000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma_ex.xcl	abdf480b424e3ee2
+1149	1314	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_exti.xcl	c5c9e5a0a8e8e8f6
+1164	1334	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr.xcl	176dbe8a2b12466e
+1199	1390	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ramfunc.xcl	d480b4fa7cf886fc
+1341	1497	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.xcl	56db1db4b12e6ed6
+1363	1514	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.xcl	6f7447c864193319
+1398	1558	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.xcl	35b46191f9df47b8
+1505	1695	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.xcl	f484be6570d4fa1e
+1522	1712	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.xcl	f503a1773104e546
+1540	1742	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.xcl	b8a5794b00155944
+1566	1759	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.xcl	94c37c52551deb07
+1720	1880	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart_ex.xcl	d565848e4e8d005b
+1703	1894	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim.xcl	9768f2d398aa82fb
+1750	1911	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_exti.xcl	675d676b1c5a59f5
+1767	1928	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim_ex.xcl	859bf2183a130c3c
+1902	2989	7337454700000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_dma.xcl	89b3c4490c91eedb
+2973	3126	7337454710000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_tim.xcl	5228005798af70d8
+2997	3702	7337454724059566	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_hal_msp.pbi	f81f813429d1f7bf
+3092	3821	7337454725243098	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_it.pbi	dbd766fee51a0fe3
+3706	3846	7337454720000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_gpio.xcl	d0bfd869cc569323
+5	591	7337547986693880	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+3740	4252	7337454729553300	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/CMSIS/system_stm32l4xx.pbi	4a8a42cde507ee5d
+3824	4337	7337454730420462	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.pbi	fcaa22f0f9981444
+3855	4373	7337454730770435	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc.pbi	ac66882439533f7e
+3884	4397	7337454731005914	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma.pbi	c3caef5db8ba9eda
+4255	4755	7337454734581750	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma_ex.pbi	c84a6c2fb405bb6f
+4341	4856	7337454735593609	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc_ex.pbi	e2192a49a3794c2f
+4376	4866	7337454735680745	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.pbi	a7b44d020697dd59
+4401	4981	7337454736854423	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.pbi	9afdf284e982fcb7
+4759	5267	7337454739704082	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.pbi	4de438330a90090d
+4859	5366	7337454740707016	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_exti.pbi	83cdafbf16e36d5f
+4870	5376	7337454740789168	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.pbi	f845b7a7854ee3a1
+4985	5488	7337454741925806	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.pbi	151049065eb3e3e2
+5369	5863	7337454745678876	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ramfunc.pbi	cae15ec5bd78cd84
+5379	5874	7337454745741046	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_gpio.pbi	a1d13c9bd9c8117e
+5270	5884	7337454745783918	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.pbi	7a58f6a7f24fc39
+5492	6017	7337454747209535	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.pbi	3ea2cb8a8722c0b9
+5868	6381	7337454750852070	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_dma.pbi	3398b4d7751373a7
+5878	6408	7337454751124338	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim_ex.pbi	4e8445d72fac0504
+5888	6513	7337454752179471	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart_ex.pbi	e3d74bb7e4929be5
+6020	6524	7337454752235713	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.pbi	a999e139250a115b
+6411	6902	7337454756051864	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.pbi	66a10cf92f17ad3c
+6517	7004	7337454757076941	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.pbi	1de4c85ca52d87a
+6384	7020	7337454757235581	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.pbi	ab328f33b9a56fd
+6528	7123	7337454758264784	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim.pbi	955f4ea683199b81
+6905	7403	7337454761076213	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_exti.pbi	1a69604d114e9ee4
+7008	8096	7337454762165577	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr.pbi	e4418926db795ffe
+5	395	7337548860000000	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.xcl	b023f641aae15b52
+7023	8111	7337454762292799	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.pbi	227f2a4c9590c3be
+7127	8123	7337454763512855	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_tim.pbi	ea8d42525a5242da
+8115	8811	7337454775144579	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part3.pbi	d611dd35a3def6ff
+7406	8826	7337454775224886	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part1.pbi	150f24823d29dce8
+8126	8841	7337454775266524	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part2.pbi	b40427b5b00ae81f
+8104	8856	7337454775608039	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part4.pbi	ef7b8483cbd619be
+5	565	7337549503237180	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+8819	9385	7337454780879953	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_utils.pbi	fb4f28afa868156c
+595	1235	7337547993126730	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1037	1544	7337549513030778	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1551	3973	7337549536708837	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+6	677	7337549848397615	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+5	458	7337549908135516	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+465	967	7337549913228709	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+975	3314	7337549935950361	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+6	551	7337550448647194	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+556	1005	7337550453207847	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+1012	1502	7337550458186593	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1509	3833	7337550480747980	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+6	544	7337550689802698	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+548	993	7337550694282386	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+999	1502	7337550699364403	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1509	3831	7337550722014526	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+5	559	7337550931057252	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+564	1011	7337550935577687	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+1018	1536	7337550940827148	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1544	3887	7337550963611059	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+5	547	7337551021144514	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+551	984	7337551025504769	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+990	1485	7337551030510685	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1493	3807	7337551053014643	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+7	602	7337552223921439	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+607	1249	7337552230381045	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1257	1742	7337552235306320	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1750	4063	7337552257796401	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+421	1005	7337586485624196	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+6	1369	7337586485774082	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+1009	1864	7337586494209033	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+1373	2064	7337586496212758	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+2072	2565	7337586501205912	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+2572	6211	7337586537084445	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+7	550	7337593326966067	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+554	1014	7337593331589547	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+1020	1536	7337593336813295	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1544	3948	7337593360200894	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+6	612	7337594843447967	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+615	1333	7337594850653898	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1340	1840	7337594855724618	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1848	4193	7337594878554441	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+5	546	7337595289842492	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+551	1192	7337595296262389	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1199	1714	7337595301505928	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1721	4020	7337595323845366	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+7	632	7337596443672220	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+636	1307	7337596450419451	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1314	1828	7337596455622502	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+5	624	7337596514171338	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+13	635	7337596514266725	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+638	1109	7337596519015352	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+628	1320	7337596521127013	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1328	1853	7337596526448803	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1860	4216	7337596549353447	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+14	753	7337596811132677	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+6	764	7337596811211792	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+757	1251	7337596816107656	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+768	1476	7337596818362500	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1483	2000	7337596823602370	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+2007	4342	7337596846285974	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+6	580	7337597055871637	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+585	1248	7337597062544335	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1257	1783	7337597067867636	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1791	4167	7337597090924661	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+5	777	7337597201734566	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+782	1410	7337597208046807	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1418	1913	7337597213080918	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1921	4318	7337597236522950	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+20	710	7337598222357409	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_it.pbi	dbd766fee51a0fe3
+27	746	7337598222714343	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_hal_msp.pbi	f81f813429d1f7bf
+6	776	7337598223027427	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	52b34d6c2e52f05d
+14	796	7337598223239510	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+713	1406	7337598229334932	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+799	1577	7337598231034572	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1410	1866	7337598233918994	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+1873	2370	7337598238966783	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+2377	4766	7337598262180170	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+6	575	7337598724576812	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+578	1238	7337598731202358	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1246	1761	7337598736426349	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1768	4164	7337598759685899	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+6	572	7337599272736825	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+576	1228	7337599279275682	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1237	1766	7337599284657111	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1773	4136	7337599307751688	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+7	560	7337599517046619	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+564	1232	7337599523764621	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1240	1741	7337599528844829	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1748	4171	7337599552393328	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+21	717	7337599717495591	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_it.pbi	dbd766fee51a0fe3
+15	752	7337599717836350	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+27	855	7337599718875282	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_hal_msp.pbi	f81f813429d1f7bf
+6	887	7337599719198645	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	52b34d6c2e52f05d
+720	1449	7337599724827667	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+891	1600	7337599726310943	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1452	1911	7337599729427649	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+1918	2440	7337599734716401	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+2447	4898	7337599758566414	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+21	772	7337600374671647	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_it.pbi	dbd766fee51a0fe3
+27	781	7337600374681635	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_hal_msp.pbi	f81f813429d1f7bf
+6	785	7337600374803726	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+15	802	7337600374991299	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	52b34d6c2e52f05d
+776	1511	7337600382066565	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+805	1533	7337600382279792	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1515	1978	7337600386733429	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+1984	2494	7337600391889964	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+2501	4891	7337600415116731	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+6	557	7337600473771148	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+561	1210	7337600480299084	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1218	1712	7337600485322545	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1719	4093	7337600508544494	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+7	573	7337601426572157	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+578	1227	7337601433098835	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1234	1769	7337601438514706	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1776	4120	7337601461283634	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+20	662	7337601621243992	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_it.pbi	dbd766fee51a0fe3
+26	674	7337601621362758	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_hal_msp.pbi	f81f813429d1f7bf
+14	717	7337601621791479	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	52b34d6c2e52f05d
+6	724	7337601621865566	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+665	1274	7337601627365232	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+726	1436	7337601628977434	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1277	1731	7337601631926857	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+1737	2257	7337601637184242	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+2265	4618	7337601660069688	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+6	546	7337601723801844	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+550	1190	7337601730230276	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1198	1690	7337601735230986	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+1698	4126	7337601758854148	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8
+27	696	7337602273177156	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_it.pbi	dbd766fee51a0fe3
+21	706	7337602273187130	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_hal_msp.pbi	f81f813429d1f7bf
+6	709	7337602273279364	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	52b34d6c2e52f05d
+15	719	7337602273414837	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	15df2214d41ba037
+699	1399	7337602280225352	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/PID_Control.pbi	a36555f9253ce8e3
+721	1418	7337602280402628	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	a5992f578b6f1271
+1403	1847	7337602284689278	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	1cf6ff583580cb90
+1853	2337	7337602289593152	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	b91b83bd56ce1e9f
+2344	4691	7337602312405199	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	be581ed94beb84d8

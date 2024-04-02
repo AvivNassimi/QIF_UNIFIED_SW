@@ -19,11 +19,11 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
  
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdbool.h>
 #include <Sensors.h>
+#include <PID_Control.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -85,7 +85,7 @@ static void MX_TIM5_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+   uint32_t uiCounter=0U;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -126,8 +126,24 @@ int main(void)
   while (true)
   {
     /* USER CODE END WHILE */
-
+    
     /* USER CODE BEGIN 3 */
+    for (uint8_t uiSensorIndex = 0U; uiSensorIndex < 4U ; uiSensorIndex++)
+    {
+      IsDataReady(uiSensorIndex);
+      Calculate_Temps(uiSensorIndex);
+    }
+    
+    
+    uiCounter=LL_TIM_GetCounter(TIM5);
+    if( (LL_TIM_GetCounter(TIM5) - uiCounter) >  PID_PERIOD )
+    {
+      Calculate_PID(3U);
+    }
+    
+    
+    
+    
   }
   /* USER CODE END 3 */
 }
@@ -517,6 +533,7 @@ static void MX_TIM1_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN TIM1_Init 2 */
+    HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
 
   /* USER CODE END TIM1_Init 2 */
   HAL_TIM_MspPostInit(&htim1);

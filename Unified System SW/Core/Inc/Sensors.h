@@ -79,6 +79,20 @@
 
 #define I2C_TIMEOUT_MS 5U
 
+//----------------------POW Constants--------------------------------------//
+
+#define CONST_2POW_P19 524288.0F
+
+#define CONST_2POW_N8 0.00390625F
+#define CONST_2POW_N10 0.0009765625F
+#define CONST_2POW_N16 0.00001525878F
+#define CONST_2POW_N20 9.53674316e-7F
+#define CONST_2POW_N36 1.4551915e-11F
+#define CONST_2POW_N44 5.6843419e-14F
+#define CONST_2POW_N46 1.4210855e-14F
+//---------------------------------------------------------------------------------------------//
+
+
 typedef enum 
 {
     eHALT_MODE = 0U,
@@ -163,29 +177,33 @@ typedef struct Sensor
   
   uint16_t       I2C_Adress;
   
-  double_t     fEE_P_R;     
-  double_t     fEE_P_G;     
-  double_t     fEE_P_T;     
-  double_t     fEE_P_O;     
-  double_t     fEE_Aa;      
-  double_t     fEE_Ab;      
-  double_t     fEE_Ba;      
-  double_t     fEE_Bb;      
-  double_t     fEE_Ca;      
-  double_t     fEE_Cb;      
-  double_t     fEE_Da;      
-  double_t     fEE_Db;     
-  double_t     fEE_Ea;      
-  double_t     fEE_Eb;      
-  double_t     fEE_Fa;      
-  double_t     fEE_Fb;      
-  double_t     fEE_Ga;      
-  double_t     fEE_Gb;      
-  double_t     fEE_Ka;
-  double_t     fEE_Kb;
-  double_t     fEE_Ha;      
-  double_t     fEE_Hb;
   I2C_HandleTypeDef* Channel;
+  
+  float     fEE_P_R;     
+  float     fEE_P_G;     
+  float     fEE_P_T;     
+  float     fEE_P_O;     
+  float     fEE_Aa;      
+  float     fEE_Ab;      
+  float     fEE_Ba;      
+  float     fEE_Bb;      
+  float     fEE_Ca;      
+  float     fEE_Cb;      
+  float     fEE_Da;      
+  float     fEE_Db;     
+  float     fEE_Ea;      
+  float     fEE_Eb;      
+  float     fEE_Fa;      
+  float     fEE_Fb;      
+  float     fEE_Ga;      
+  float     fEE_Gb;      
+  float     fEE_Ka;
+  float     fEE_Kb;
+  float     fEE_Ha;      
+  float     fEE_Hb;
+  
+  float fObject_Temp;
+  float Ambient_Temp;
 
 } t_Sensor;
 
@@ -193,4 +211,6 @@ typedef struct Sensor
 
 void Senors_I2C_Init();
 
-void Calculate_Temps(uint8_t uiSensorIndex, double* Ambient_Temp, double* Target_Temp);
+void Calculate_Temps(uint8_t uiSensorIndex);
+
+void IsDataReady(uint8_t uiSensorIndex);

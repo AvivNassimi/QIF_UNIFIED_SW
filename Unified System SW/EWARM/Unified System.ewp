@@ -1206,6 +1206,15 @@
         </group>
     </group>
     <file>
+        <name>$PROJ_DIR$\..\Core\Inc\main.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\..\Core\Src\PID_Control.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\..\Core\Inc\PID_Control.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\..\Core\Inc\Sensors.h</name>
     </file>
 </project>
