@@ -1,0 +1,96 @@
+# ninja log v5
+4907	5460	7332306942682121	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.pbi	5e23bdc0f9cd7393
+156	1049	7332306890000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.xcl	2be79b6a360786d0
+6606	7173	7332306959810253	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.pbi	4c1caca2c7b3475e
+1086	1374	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.xcl	820d6ceecea4e1d3
+1057	1278	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma.xcl	285609ab82a2c7e7
+646	1132	7332306890000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_exti.xcl	bc189cbb9a3e63af
+249	978	7332361240060908	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part2.pbi	67b81282db41de48
+1105	1393	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.xcl	cd202e84455b34c4
+744	1424	7336880291385887	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
+626	1080	7332306890000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma_ex.xcl	31c92e129f5f6c03
+6431	7000	7332306958076709	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim_ex.pbi	d2774fa2ee5769f6
+656	1098	7332306890000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc_ex.xcl	94a457deca893296
+2109	2285	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim_ex.xcl	5c2a00068521f7ff
+1382	1555	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.xcl	83907f0201370130
+1400	1573	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.xcl	462121cc898bb5e6
+2135	2309	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_dma.xcl	5873d32ae0c91239
+428	1163	7332361241908673	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part3.pbi	a961ce8236c8abff
+1510	1700	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ramfunc.xcl	93397ed103ddff71
+987	1411	7332361244392323	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part5.pbi	a30d4004f882e1b0
+1580	1768	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.xcl	708b8973df100dbc
+1139	1446	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr.xcl	c61907c7b61dfb8a
+1452	1621	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.xcl	16fa609818862097
+2181	2379	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_exti.xcl	89d6c562e6f1f523
+5379	5883	7332306946910809	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.pbi	295a4300bd6373ae
+1430	1945	7336880296588829	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
+1562	1750	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.xcl	cee944ea1359644f
+1285	1502	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.xcl	feb7dda9dc928b10
+1628	1798	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.xcl	253c7b5442599ef1
+1757	1947	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.xcl	5260641c41a82612
+5390	6034	7332306948414718	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ramfunc.pbi	58d480d6b0688da2
+1707	1899	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.xcl	d4f89084a5843a1f
+1993	2174	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/CMSIS/system_stm32l4xx.xcl	c021ba8d6a6fe608
+1775	1963	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim.xcl	6244644144a65cdc
+2316	2743	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.xcl	97859e7dc0b15ab5
+2158	2351	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart_ex.xcl	ceae1c7d92c8ff38
+3558	4222	7332306930238503	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc.pbi	860083cfdc216d59
+1805	1986	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_it.xcl	26fd073a59bef6f3
+1906	2102	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.xcl	d65c0b7b9e001a1b
+1954	2128	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc.xcl	88f19c6ce58cebac
+4225	4904	7332306937098472	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_exti.pbi	e5005c10ee18bf1
+1970	2151	7332306900000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_hal_msp.xcl	5e0c49a7a9a8e6e4
+3981	4767	7332306935733276	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.pbi	2e876f6e4df20b8
+2734	3353	7332306921433079	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/CMSIS/system_stm32l4xx.pbi	6ab43cdd6c0a0a2f
+5	740	7336880284547965	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	24c09a5404ebf779
+7054	7827	7332306965800232	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim.pbi	b1d8b5f7dfbf3cb6
+2750	3445	7332306922509445	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_it.pbi	c43aa0e46727a9f
+3356	4200	7332306930046855	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/stm32l4xx_hal_msp.pbi	cfcc6361a7a6a316
+4085	4841	7332306936482912	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc_ex.pbi	d46a9594e6089dea
+4203	4880	7332306936875069	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma_ex.pbi	f2b9f87b23a95f68
+3448	3978	7332306927843921	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma.pbi	e62434e892f44127
+239	995	7332361240234760	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part1.pbi	3c5e5d05babbd19c
+2718	3329	7332306921359530	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.pbi	304fedb52e93011d
+1002	1702	7332361247305977	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part4.pbi	72b7d98e59af81df
+3332	3494	7332306920000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_utils.xcl	51264ea8de36ff3
+4883	5412	7332306942195385	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr.pbi	650c1a7875d82a38
+3501	4082	7332306928766400	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.pbi	45c0f8e304b78e0b
+4845	5387	7332306941838275	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.pbi	efd86f7bdceda7f
+5415	5932	7332306947391122	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.pbi	b00d0e7f326b0f32
+4770	5376	7332306941828324	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.pbi	a83b8453d3ac3cbc
+5463	6046	7332306948482211	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.pbi	1705c5a88f07cd8a
+6689	7257	7332306960654136	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.pbi	5cbf48987f47d362
+7003	7555	7332306963600376	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.pbi	74b9d944936338c1
+7176	7859	7332306966668334	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart_ex.pbi	44b4c774edc814f9
+5888	6427	7332306952342500	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.pbi	307e42dd7a5d634d
+1951	4274	7336880319241898	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
+2359	2710	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_tim.xcl	adc95aea5a5a4509
+2292	2726	7332306910000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_gpio.xcl	999b33d4f64b72d4
+5935	6528	7332306953353488	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_tim.pbi	7eaacb0ae8c0acaf
+6050	6603	7332306954097336	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_dma.pbi	58815c9558618b31
+6038	6686	7332306954928581	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_gpio.pbi	8a8d254aa85f9f8f
+6532	7051	7332306958585509	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_exti.pbi	73c396a7f8be23f0
+7261	7905	7332306967132072	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_utils.pbi	41feb7a60d5fd16b
+5	368	7332361230000000	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.xcl	5ac868e5205f1a3e
+13	580	7336880282947582	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
+14	634	7336880428354441	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
+6	639	7336880428354441	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/main.pbi	24c09a5404ebf779
+641	1330	7336880435304349	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
+1336	1888	7336880440883944	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
+1894	4144	7336880462664313	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
+6	538	7336880671953473	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
+542	1210	7336880678674751	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
+1217	1708	7336880683657540	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
+1715	4026	7336880706114965	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
+5	693	7336881018034856	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
+5	640	7336881081481591	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
+648	1170	7336881086778452	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
+1177	3442	7336881108912702	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
+5	567	7336881267913084	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
+571	1200	7336881274231694	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
+1207	1704	7336881279273996	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
+1711	3965	7336881301161479	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
+5	576	7336881412883448	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Application/User/Core/Sensors.pbi	6c64b5dbf5906efa
+580	1288	7336881419939537	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System_part0.pbi	5dedb26508aa2511
+1299	1845	7336881425570374	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbd	3cd16f3c869e077d
+1852	4160	7336881447953948	C:/Users/ophir.parnassa/Desktop/Unified System SW/EWARM/Unified System/BrowseInfo/Unified System.pbw	a117e8f12b6303bb
