@@ -203,7 +203,7 @@ typedef struct Sensor
   float     fEE_Hb;
   
   float fObject_Temp;
-  float Ambient_Temp;
+  float fAmbient_Temp;
 
 } t_Sensor;
 

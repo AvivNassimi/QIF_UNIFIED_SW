@@ -45,11 +45,11 @@ void Unlock_Sensor (uint8_t uiSenorNum)
 
 void QIF_Write_I2C_Register(uint8_t uiSensorIndex, uint16_t uiAdress, uint16_t uiData)
 {
-  t_Senor16Data uiSwapedDate;
+  t_Senor16Data uiSwapedData;
   HAL_StatusTypeDef ErrorCheck;
   
-  uiSwapedDate.iWordArray=SwapLsbMsb(uiData);
-  ErrorCheck = HAL_I2C_Mem_Write(g_tSensor[uiSensorIndex].Channel,g_tSensor[uiSensorIndex].I2C_Adress , uiAdress, I2C_MEMADD_SIZE_16BIT,uiSwapedDate.uiByteArray,2U,I2C_TIMEOUT_MS);
+  uiSwapedData.iWordArray=SwapLsbMsb(uiData);
+  ErrorCheck = HAL_I2C_Mem_Write(g_tSensor[uiSensorIndex].Channel,g_tSensor[uiSensorIndex].I2C_Adress , uiAdress, I2C_MEMADD_SIZE_16BIT,uiSwapedData.uiByteArray,2U,I2C_TIMEOUT_MS);
   if(ErrorCheck !=  HAL_OK)
   {
     Error_Handler();
@@ -59,16 +59,16 @@ void QIF_Write_I2C_Register(uint8_t uiSensorIndex, uint16_t uiAdress, uint16_t u
 
 uint16_t QIF_Read_I2C_Register(uint8_t uiSensorIndex, uint16_t uiAdress)
 {
-  t_Senor16Data uiReturnedDate;
+  t_Senor16Data uiReturnedData;
   HAL_StatusTypeDef ErrorCheck;
   
-  ErrorCheck = HAL_I2C_Mem_Read(g_tSensor[uiSensorIndex].Channel,g_tSensor[uiSensorIndex].I2C_Adress , uiAdress, I2C_MEMADD_SIZE_16BIT,uiReturnedDate.uiByteArray,2U,I2C_TIMEOUT_MS);
+  ErrorCheck = HAL_I2C_Mem_Read(g_tSensor[uiSensorIndex].Channel,g_tSensor[uiSensorIndex].I2C_Adress , uiAdress, I2C_MEMADD_SIZE_16BIT,uiReturnedData.uiByteArray,2U,I2C_TIMEOUT_MS);
   if(ErrorCheck !=  HAL_OK)
   {
     Error_Handler();
   }
-  uiReturnedDate.iWordArray=SwapLsbMsb(uiReturnedDate.iWordArray);
-  return uiReturnedDate.iWordArray;
+  uiReturnedData.iWordArray=SwapLsbMsb(uiReturnedData.iWordArray);
+  return uiReturnedData.iWordArray;
 }
 
 void QIF_Write_I2C_EE(uint8_t uiSensorIndex, uint16_t uiAdress, uint16_t uiData)
@@ -103,7 +103,7 @@ void QIF_Write_I2C_EE(uint8_t uiSensorIndex, uint16_t uiAdress, uint16_t uiData)
 
 uint16_t QIF_Read_I2C_EE(uint8_t uiSensorIndex, uint16_t uiAdress)
 {
-  t_Senor16Data uiReturnedDate;
+  t_Senor16Data uiReturnedData;
   HAL_StatusTypeDef ErrorCheck;
   uint32_t uiCounter = 0U;
   
@@ -121,13 +121,13 @@ uint16_t QIF_Read_I2C_EE(uint8_t uiSensorIndex, uint16_t uiAdress)
   }
   while (g_tSensor[uiSensorIndex].RegStatusUnified.RegStatus.uiEEprom_busy == 1U);
   
-  ErrorCheck = HAL_I2C_Mem_Read(g_tSensor[uiSensorIndex].Channel,g_tSensor[uiSensorIndex].I2C_Adress , uiAdress, I2C_MEMADD_SIZE_16BIT,uiReturnedDate.uiByteArray,2U,I2C_TIMEOUT_MS);
+  ErrorCheck = HAL_I2C_Mem_Read(g_tSensor[uiSensorIndex].Channel,g_tSensor[uiSensorIndex].I2C_Adress , uiAdress, I2C_MEMADD_SIZE_16BIT,uiReturnedData.uiByteArray,2U,I2C_TIMEOUT_MS);
   if(ErrorCheck !=  HAL_OK)
   {
     Error_Handler();
   }
-  uiReturnedDate.iWordArray=SwapLsbMsb(uiReturnedDate.iWordArray);
-  return uiReturnedDate.iWordArray;
+  uiReturnedData.iWordArray=SwapLsbMsb(uiReturnedData.iWordArray);
+  return uiReturnedData.iWordArray;
 }
 
 
@@ -279,7 +279,7 @@ void Calculate_Temps(uint8_t uiSensorIndex)
   }
   
   g_tSensor[uiSensorIndex].fObject_Temp = fTO;
-  g_tSensor[uiSensorIndex].Ambient_Temp = fTa;
+  g_tSensor[uiSensorIndex].fAmbient_Temp = fTa;
 }
 
 
