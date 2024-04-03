@@ -53,3 +53,163 @@
 2	840	7337602250455326	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/main.o	fe6c880569325cb8
 848	979	7337602251882151	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	770d605314ccfc59
 1011	1034	7337602252528444	C:/Users/ophir.parnassa/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	45336ed69d83a8fa
+33	621	7337606810865933	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/CMSIS/system_stm32l4xx.o	2e6a630af0269d11
+14	668	7337606811516181	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/stm32l4xx_it.o	4d4954335023efd
+23	758	7337606812287997	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/stm32l4xx_hal_msp.o	ae433a487006efd4
+766	1869	7337606823673456	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/EWARM/startup_stm32l475xx.o	c3d2fe11fb0475e9
+2	1888	7337606813340409	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	e7dc87d0232611f8
+629	2063	7337606825496698	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.o	e81fb09300c12774
+1879	2197	7337606826819146	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma_ex.o	ac2c2a804b8abd06
+677	2572	7337606830491986	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/main.o	b4affed894baa64d
+2207	2769	7337606832531666	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma.o	649134a926d5375b
+2580	3022	7337606835040075	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.o	e543baf8f964f719
+2070	3148	7337606836304484	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc_ex.o	626317dca16f1ae3
+1896	3243	7337606837235658	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc.o	92cdcfe327eae27e
+2777	3280	7337606837530705	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.o	a84a5746c47863b0
+3030	3490	7337606839730538	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.o	7e1102b8659d667
+3254	3673	7337606841555363	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_exti.o	147be568957f4f48
+3499	3795	7337606842824600	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ramfunc.o	9c72ec8a140c9b6
+3290	3876	7337606843607571	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.o	8911932b16b6c74d
+3684	4205	7337606846859723	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.o	e8d870d0646635d4
+3804	4234	7337606846929728	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr.o	fd7bb3c68d6076de
+4244	4597	7337606850763879	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.o	c42e58b7e8c90e8a
+3884	4825	7337606853062246	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.o	9abf7ebe384664b6
+4832	5171	7337606856541663	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.o	b715c68ec1c18114
+4607	5479	7337606859639597	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.o	e36f85cc3609e2ca
+3156	5527	7337606860039500	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.o	2e756003ec334739
+4213	5663	7337606861460536	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.o	ff1c304ead17aaff
+5537	5909	7337606863923343	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_dma.o	7e237ec76f6ce354
+5917	6382	7337606868660925	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart_ex.o	3154ce2a9f19636d
+5179	6567	7337606870470297	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.o	3913207d3131d5f
+5673	6788	7337606872703470	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim_ex.o	c1c579f70112af78
+6393	6965	7337606874488477	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_tim.o	bc49d71ca5ab88
+6575	7025	7337606875093300	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_utils.o	a8fe0df6ad45a944
+6798	7229	7337606877120877	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/PID_Control.o	af90a3fbe94fa777
+6977	7352	7337606878377170	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_exti.o	6c8245aad2d80d10
+7035	7382	7337606878689652	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_gpio.o	503b2bec975a78cb
+5487	7818	7337606882937074	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim.o	82af766b7e258795
+7832	8379	7337606888638337	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+8419	8711	7337606892080206	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+20	572	7337623609365457	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/PID_Control.o	af90a3fbe94fa777
+3	818	7337623612129406	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	e7dc87d0232611f8
+13	994	7337623613950778	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/main.o	b4affed894baa64d
+1002	1135	7337623615563409	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+1162	1193	7337623616231963	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+21	639	7337624398275532	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/PID_Control.o	af90a3fbe94fa777
+3	793	7337624400214626	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	e7dc87d0232611f8
+14	981	7337624401994351	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/main.o	b4affed894baa64d
+996	1136	7337624403796531	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+1168	1194	7337624404503174	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+4	1177	7337647765983761	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/main.o	b4affed894baa64d
+1191	1843	7337647772674487	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+1883	2756	7337647781912091	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+18	566	7337665828442041	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.o	1a5642b6de90239f
+34	586	7337665828412925	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma_ex.o	f8302efd529e3020
+4	683	7337665829443308	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/main.o	6d3427b322d369e1
+26	899	7337665831581119	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc.o	6d01da628ba4531d
+596	976	7337665832561876	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma.o	52230c8bbe3c1ff4
+692	1102	7337665833827471	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.o	2ef51cb748d2b75d
+576	1140	7337665834061189	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc_ex.o	161928a0b4bb73e2
+910	1302	7337665835835441	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.o	c629166c91a67e76
+1112	1441	7337665837249088	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_exti.o	afed59be67ba9c62
+1149	1529	7337665838108014	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.o	a6070fea26d3b89c
+1310	1633	7337665839199311	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ramfunc.o	ab61d4d97cd654d9
+1451	1901	7337665841802343	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.o	6710def3d4aebf9a
+985	1943	7337665841882996	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.o	d00dd49c45e12ff4
+1641	2186	7337665844619932	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.o	cd61a15f03df70ea
+1537	2206	7337665844676724	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.o	f75d32eb30608d60
+1954	2264	7337665845477278	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.o	470c6efc5dc3c69
+1912	2388	7337665846713186	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.o	1b1d3f6454c0384e
+2196	2569	7337665848535075	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr.o	e5c7ccba430e0b61
+2216	2601	7337665848641548	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_gpio.o	c611e24246ddd8a0
+2272	2709	7337665849877738	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_tim.o	73459f4d26eb371d
+2396	2836	7337665851156207	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/PID_Control.o	801fedfdce2dbd22
+2578	2911	7337665851940443	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_exti.o	a12cc0944e1cab3f
+2609	3019	7337665852988569	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_utils.o	6530b51bebc41030
+2718	3132	7337665854140893	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/stm32l4xx_it.o	77e7b893f55fc6de
+2844	3169	7337665854515289	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/CMSIS/system_stm32l4xx.o	5a25ecdaed0a3924
+3027	3369	7337665856495843	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.o	825a0c8e88ef2b21
+2918	3406	7337665856738379	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/stm32l4xx_hal_msp.o	94571454e0e0a837
+3139	3683	7337665859590758	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+3413	3719	7337665859919983	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.o	ac1b16004e0588e4
+3377	3738	7337665860063176	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_dma.o	9410271ba9a88cf9
+3176	3783	7337665860605147	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim_ex.o	291fa02a1610d038
+3747	4084	7337665863629206	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart_ex.o	c4e2c1302e065700
+3729	4313	7337665865906908	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.o	720ba3fda4b7e1e3
+3692	4607	7337665868846505	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim.o	2f0eabf69261097b
+4619	4770	7337665870492440	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+4804	4835	7337665871286220	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+1	1020	7337690598833257	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+2	379	7337690608331504	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+413	675	7337690611417834	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+17	532	7337715292301689	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/CMSIS/system_stm32l4xx.o	5a25ecdaed0a3924
+3	618	7337715293019622	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/stm32l4xx_hal_msp.o	94571454e0e0a837
+39	648	7337715293294540	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/stm32l4xx_it.o	77e7b893f55fc6de
+27	804	7337715294988626	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/main.o	6d3427b322d369e1
+626	931	7337715296253536	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma_ex.o	f8302efd529e3020
+539	1111	7337715298062210	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+812	1179	7337715298737682	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.o	825a0c8e88ef2b21
+657	1315	7337715300108550	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc.o	6d01da628ba4531d
+940	1558	7337715302519544	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc_ex.o	161928a0b4bb73e2
+1119	1575	7337715302548445	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma.o	52230c8bbe3c1ff4
+1187	1593	7337715302594425	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.o	1a5642b6de90239f
+1323	1728	7337715304240166	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_exti.o	afed59be67ba9c62
+1566	1929	7337715306262432	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.o	a6070fea26d3b89c
+1602	2053	7337715307496760	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.o	2ef51cb748d2b75d
+1736	2154	7337715308494328	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.o	c629166c91a67e76
+1938	2276	7337715309719033	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ramfunc.o	ab61d4d97cd654d9
+1584	2592	7337715312851458	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.o	d00dd49c45e12ff4
+2284	2623	7337715313013306	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.o	470c6efc5dc3c69
+2062	2662	7337715313357497	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.o	cd61a15f03df70ea
+2163	2828	7337715315207972	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.o	f75d32eb30608d60
+2631	2967	7337715316631157	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr.o	e5c7ccba430e0b61
+2600	3063	7337715317615267	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.o	6710def3d4aebf9a
+2669	3163	7337715318584667	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.o	1b1d3f6454c0384e
+3071	3457	7337715321561730	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart_ex.o	c4e2c1302e065700
+2836	3504	7337715321981458	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim_ex.o	291fa02a1610d038
+2976	3682	7337715323773772	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.o	720ba3fda4b7e1e3
+3512	3818	7337715325137262	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.o	ac1b16004e0588e4
+3465	3854	7337715325391812	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_dma.o	9410271ba9a88cf9
+3690	4062	7337715327587800	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_exti.o	a12cc0944e1cab3f
+3826	4268	7337715329632868	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/PID_Control.o	801fedfdce2dbd22
+3170	4300	7337715329716232	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim.o	2f0eabf69261097b
+3861	4351	7337715330460277	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_tim.o	73459f4d26eb371d
+4070	4507	7337715332060640	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_utils.o	6530b51bebc41030
+4275	4578	7337715332754699	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Drivers/STM32L4xx_HAL_Driver/stm32l4xx_ll_gpio.o	c611e24246ddd8a0
+4588	4743	7337715334406635	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+4773	4805	7337715335155082	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+2	573	7337719329682527	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/main.o	6d3427b322d369e1
+585	722	7337719331168679	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+763	797	7337719332059363	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+3	1012	7338337479314952	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+1020	1827	7338337487582689	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+1859	2187	7338337491287722	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+13	533	7338363004027972	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/PID_Control.o	801fedfdce2dbd22
+3	593	7338363004550663	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/main.o	6d3427b322d369e1
+3	455	7338363624167138	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+464	603	7338363625650101	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+631	661	7338363626368670	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+2	404	7338365845887573	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+413	540	7338365847190503	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+569	595	7338365847902543	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+5	518	7338366240189989	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+525	633	7338366241477210	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+663	690	7338366242131708	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+3	404	7338366588433460	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+414	542	7338366589804197	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+572	598	7338366590477436	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+2	424	7338366806324087	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+431	544	7338366807534475	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+575	600	7338366808193486	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+2	405	7338367013685585	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+413	534	7338367014952835	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+564	590	7338367015622884	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+3	460	7338367526911527	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+470	589	7338367528193427	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+620	647	7338367528918040	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+3	748	7338375140968623	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+756	1331	7338375146944033	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+1360	1612	7338375149857928	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5
+4	518	7338382153740410	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Obj/Application/User/Core/Sensors.o	15c35bb2cf5f4e05
+525	649	7338382155223566	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.out	d121fed35d67e2b8
+679	707	7338382155907087	C:/Users/Aviv/Documents/GitHub/QIF_UNIFIED_SW/Unified System SW/EWARM/Unified System/Exe/Unified System.hex	176e0dd18602c5f5

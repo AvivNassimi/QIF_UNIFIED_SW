@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\ophir.parnassa\Documents\GitHub\QIF_UNIFIED_SW\Unified System SW\EWARM\settings\Unified System.Unified_System.general.xcl" --backend -f "C:\Users\ophir.parnassa\Documents\GitHub\QIF_UNIFIED_SW\Unified System SW\EWARM\settings\Unified System.Unified_System.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\common\bin\cspybat" -f "C:\Users\Aviv\Documents\GitHub\QIF_UNIFIED_SW\Unified System SW\EWARM\settings\Unified System.Unified_System.general.xcl" --backend -f "C:\Users\Aviv\Documents\GitHub\QIF_UNIFIED_SW\Unified System SW\EWARM\settings\Unified System.Unified_System.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\ophir.parnassa\Documents\GitHub\QIF_UNIFIED_SW\Unified System SW\EWARM\settings\Unified System.Unified_System.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\ophir.parnassa\Documents\GitHub\QIF_UNIFIED_SW\Unified System SW\EWARM\settings\Unified System.Unified_System.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\common\bin\cspybat" -f "C:\Users\Aviv\Documents\GitHub\QIF_UNIFIED_SW\Unified System SW\EWARM\settings\Unified System.Unified_System.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Aviv\Documents\GitHub\QIF_UNIFIED_SW\Unified System SW\EWARM\settings\Unified System.Unified_System.driver.xcl" 
 }

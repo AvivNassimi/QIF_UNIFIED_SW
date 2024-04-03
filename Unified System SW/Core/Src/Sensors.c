@@ -79,9 +79,9 @@ void QIF_Write_I2C_EE(uint8_t uiSensorIndex, uint16_t uiAdress, uint16_t uiData)
   uiCounter=LL_TIM_GetCounter(TIM5);
   do
   {
-      if(LL_TIM_GetCounter(TIM5) - uiCounter <=  100U) // 100 is 1mili second.
+      if(LL_TIM_GetCounter(TIM5) - uiCounter <=  500U) // 500 is 5mili second.
       {
-      uiSwapedData.iWordArray = QIF_Read_I2C_Register(uiSensorIndex,MLX90632_SENSOR_REG_STATUS);
+        g_tSensor[uiSensorIndex].RegStatusUnified.uiRegStatus = QIF_Read_I2C_Register(uiSensorIndex,MLX90632_SENSOR_REG_STATUS);
       }
       else
       {
@@ -105,6 +105,21 @@ uint16_t QIF_Read_I2C_EE(uint8_t uiSensorIndex, uint16_t uiAdress)
 {
   t_Senor16Data uiReturnedDate;
   HAL_StatusTypeDef ErrorCheck;
+  uint32_t uiCounter = 0U;
+  
+  uiCounter=LL_TIM_GetCounter(TIM5);
+  do
+  {
+      if(LL_TIM_GetCounter(TIM5) - uiCounter <=  500U) // 500 is 5mili second.
+      {
+        g_tSensor[uiSensorIndex].RegStatusUnified.uiRegStatus = QIF_Read_I2C_Register(uiSensorIndex,MLX90632_SENSOR_REG_STATUS);
+      }
+      else
+      {
+        Error_Handler();
+      }
+  }
+  while (g_tSensor[uiSensorIndex].RegStatusUnified.RegStatus.uiEEprom_busy == 1U);
   
   ErrorCheck = HAL_I2C_Mem_Read(g_tSensor[uiSensorIndex].Channel,g_tSensor[uiSensorIndex].I2C_Adress , uiAdress, I2C_MEMADD_SIZE_16BIT,uiReturnedDate.uiByteArray,2U,I2C_TIMEOUT_MS);
   if(ErrorCheck !=  HAL_OK)
@@ -166,7 +181,7 @@ void Senors_I2C_Init()
     for(uint8_t UiSenIndex=0U ;  UiSenIndex < 3U ; UiSenIndex++)
     {
       QIF_Write_I2C_EE(uiSenorIndex, EE_Meas_Adress[UiSenIndex], 0U); // Erase in order to Write the Data
-      QIF_Write_I2C_EE(uiSenorIndex, EE_Meas_Adress[UiSenIndex], EE_Meas_Data[UiSenIndex]);
+      QIF_Write_I2C_EE(uiSenorIndex, EE_Meas_Adress[UiSenIndex], EE_Meas_Data[UiSenIndex]);  
     }        
     //---------------------------------------------------// 
     g_tSensor[uiSenorIndex].RegCtr.iWordArray=QIF_Read_I2C_Register(uiSenorIndex,MLX90632_SENSOR_REG_CTRL);
@@ -229,6 +244,7 @@ void Calculate_Temps(uint8_t uiSensorIndex)
   float fVRTO = 0.0F;
   float fSTO = 0.0F;
   float fTa = 0.0F;
+  float fTaK = 0.0F;
   float fTA_dut = 0.0F;
   float fTO_dut = 25.0F;
   float fTO_0 = 25.0F;
@@ -250,8 +266,10 @@ void Calculate_Temps(uint8_t uiSensorIndex)
   
   fTA_dut= ((fAMB - g_tSensor[uiSensorIndex].fEE_Bb)/(g_tSensor[uiSensorIndex].fEE_Ea)) + 25.0F;
   
+  fTaK= fTA_dut + 273.15F;
+  
   fTO_1=fSTO/((g_tSensor[uiSensorIndex].fEE_Fa/2.0F)*g_tSensor[uiSensorIndex].fEE_Ha);
-  fTO_3=(fTa * fTa * fTa * fTa);
+  fTO_3=(fTaK * fTaK * fTaK * fTaK);
   
   for(uint8_t uiPtr = 0U ; uiPtr< 3U ; uiPtr++)
   {

@@ -18,7 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
- 
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdbool.h>
@@ -84,6 +84,7 @@ static void MX_TIM5_Init(void);
   */
 int main(void)
 {
+
   /* USER CODE BEGIN 1 */
    uint32_t uiCounter=0U;
   /* USER CODE END 1 */
@@ -126,7 +127,7 @@ int main(void)
   while (true)
   {
     /* USER CODE END WHILE */
-    
+
     /* USER CODE BEGIN 3 */
     for (uint8_t uiSensorIndex = 0U; uiSensorIndex < 4U ; uiSensorIndex++)
     {
@@ -339,7 +340,7 @@ static void MX_I2C1_Init(void)
 
   /* USER CODE END I2C1_Init 1 */
   hi2c1.Instance = I2C1;
-  hi2c1.Init.Timing = 0x00701A82;
+  hi2c1.Init.Timing = 0x00300123;
   hi2c1.Init.OwnAddress1 = 116;
   hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
@@ -365,8 +366,12 @@ static void MX_I2C1_Init(void)
   {
     Error_Handler();
   }
-  /* USER CODE BEGIN I2C1_Init 2 */
 
+  /** I2C Fast mode Plus enable
+  */
+  HAL_I2CEx_EnableFastModePlus(I2C_FASTMODEPLUS_I2C1);
+  /* USER CODE BEGIN I2C1_Init 2 */
+  
   /* USER CODE END I2C1_Init 2 */
 
 }
@@ -387,7 +392,7 @@ static void MX_I2C2_Init(void)
 
   /* USER CODE END I2C2_Init 1 */
   hi2c2.Instance = I2C2;
-  hi2c2.Init.Timing = 0x00701A82;
+  hi2c2.Init.Timing = 0x00300123;
   hi2c2.Init.OwnAddress1 = 116;
   hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c2.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
@@ -413,6 +418,10 @@ static void MX_I2C2_Init(void)
   {
     Error_Handler();
   }
+
+  /** I2C Fast mode Plus enable
+  */
+  HAL_I2CEx_EnableFastModePlus(I2C_FASTMODEPLUS_I2C2);
   /* USER CODE BEGIN I2C2_Init 2 */
 
   /* USER CODE END I2C2_Init 2 */

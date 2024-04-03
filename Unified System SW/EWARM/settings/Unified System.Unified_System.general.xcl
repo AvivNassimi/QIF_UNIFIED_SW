@@ -1,14 +1,14 @@
-"C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armPROC.dll" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm\bin\armPROC.dll" 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armSTLINK.dll" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm\bin\armSTLINK.dll" 
 
-"C:\Users\ophir.parnassa\Documents\GitHub\QIF_UNIFIED_SW\Unified System SW\EWARM\Unified System\Exe\Unified System.out" 
+"C:\Users\Aviv\Documents\GitHub\QIF_UNIFIED_SW\Unified System SW\EWARM\Unified System\Exe\Unified System.out" 
 
---plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armbat.dll" 
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm\bin\armbat.dll" 
 
---device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/debugger/ST/STM32L4xx.dmac" 
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm/config/debugger/ST/STM32L4xx.dmac" 
 
---flash_loader="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/flashloader/ST/FlashSTM32L4AxxG.board" 
+--flash_loader="C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm/config/flashloader/ST/FlashSTM32L4AxxG.board" 
 
 
 

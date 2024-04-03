@@ -67,7 +67,7 @@
 
 #define REFRESH_UNLOCK_MSB 0x3005U
 #define REFRESH_UNLOCK_LSB 0x554CU
-#define REFRESH_RATE_DELAY_MS 100U
+#define REFRESH_RATE_DELAY_MS 10U
 
 //---------------------------------------------------------------------------------------------//
 
